@@ -15,6 +15,9 @@ puts "sum of the stores = #{sum}"
 average = Store.average(:annual_revenue)
 puts "average of stores = #{average}"
 
+store_more_than_one_million = Store.where("annual_revenue > 1000000")
+puts "Number of stores with more than 1 Million revenues: #{store_more_than_one_million.count}"
+
 
 
 
