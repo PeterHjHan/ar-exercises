@@ -10,8 +10,10 @@ puts "----------"
 # Your code goes here ...
 
 sum = Store.sum(:annual_revenue)
-puts sum
+puts "sum of the stores = #{sum}"
 
+average = Store.average(:annual_revenue)
+puts "average of stores = #{average}"
 
 
 
